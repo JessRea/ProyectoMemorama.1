@@ -19,12 +19,17 @@ public class Juego extends javax.swing.JFrame {
     private boolean primerc = false;
     private int puntaje = 0;
     
+    
+    
     public Juego() {
         initComponents();
         
    
         setCards();
     }       
+    
+    
+    
     
     private void setCards() {
         int[] numbers = log.getCardNumbers();
